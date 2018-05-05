@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="0.22">
+
+        <TextView
+            android:id="@+id/layout_lista_resultados_coletas_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doador:" />
+
+        <TextView
+            android:id="@+id/layout_lista_resultados_coletas_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereco:" />
+
+        <TextView
+            android:id="@+id/layout_lista_resultados_coletas_distancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Distância:" />
+
+        <TextView
+            android:id="@+id/layout_lista_resultados_coletas_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Material:" />
+
+        <TextView
+            android:id="@+id/layout_lista_resultados_coletas_peso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volume:" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnIniciarColeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_weight="0.47"
+        android:text="Aceitar" />
+</LinearLayout>

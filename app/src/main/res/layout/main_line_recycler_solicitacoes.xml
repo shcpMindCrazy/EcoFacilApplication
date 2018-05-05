@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/main_line_title"
+        android:layout_width="283dp"
+        android:layout_height="46dp"
+        tools:text="Line 1" />
+
+    <ImageButton
+        android:id="@+id/main_line_more"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_add_alarm_white_24dp" />
+
+    <ImageButton
+        android:id="@+id/main_line_delete"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_delete_black_24dp" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EcoFacil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+
+        AIzaSyA_Qts2lJp8I4sAHMBhnDarB5bVyg2qbz4
+    </string>
+
+    <string-array name="formas_login_usuario">
+
+        <item> Selecione... </item>
+        <item> Contribuinte (Pessoa Física) </item>
+        <item> Reciclador (Pessoa Jurídica) </item>
+        <!-- <item> </item> -->
+    </string-array>
+</resources>
